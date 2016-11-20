@@ -1,0 +1,107 @@
+# depslib dependency file v1.0
+1478940067 source:c:\users\yani maltsev\desktop\packman\packman game\main.cpp
+	"main.h"
+
+1478940306 c:\users\yani maltsev\desktop\packman\packman game\main.h
+	"SDL/SDL.h"
+	"SDL/SDL_image.h"
+	"Game.h"
+	<string>
+	<windows.h>
+
+1478940318 c:\users\yani maltsev\desktop\packman\packman game\include\game.h
+	"main.h"
+
+1479030167 source:c:\users\yani maltsev\desktop\packman\packman game\src\main.cpp
+	"main.h"
+	"GameWindow.h"
+	"GameStateMachine.h"
+	"PackmanGame.h"
+
+1479645746 c:\users\yani maltsev\desktop\packman\packman game\src\main.h
+	"SDL/SDL.h"
+	"SDL/SDL_ttf.h"
+	<vector>
+	<map>
+	<cmath>
+	<algorithm>
+	<sstream>
+	<memory>
+	<iomanip>
+	<time.h>
+	<string>
+	<windows.h>
+
+1478951886 c:\users\yani maltsev\desktop\packman\packman game\src\game.h
+	"main.h"
+
+1478945457 source:c:\users\yani maltsev\desktop\packman\packman game\src\game.cpp
+	"Game.h"
+
+1479027973 source:c:\users\yani maltsev\desktop\packman\packman game\src\gamestatemachine.cpp
+	"GameStateMachine.h"
+
+1479027794 c:\users\yani maltsev\desktop\packman\packman game\src\gamestatemachine.h
+	"GameState.h"
+
+1479030502 c:\users\yani maltsev\desktop\packman\packman game\src\gamestate.h
+	"GameWindow.h"
+
+1479029049 c:\users\yani maltsev\desktop\packman\packman game\src\gamewindow.h
+	"main.h"
+
+1479561998 source:c:\users\yani maltsev\desktop\packman\packman game\src\gamewindow.cpp
+	"GameWindow.h"
+
+1479630969 c:\users\yani maltsev\desktop\packman\packman game\src\packmangame.h
+	"main.h"
+	"GameState.h"
+	"Packman.h"
+	"Ghost.h"
+	"Bonus.h"
+	"PackmanUI.h"
+
+1479649511 source:c:\users\yani maltsev\desktop\packman\packman game\src\packmangame.cpp
+	"PackmanGame.h"
+
+1479647328 source:c:\users\yani maltsev\desktop\packman\packman game\src\object.cpp
+	"Object.h"
+
+1479647379 c:\users\yani maltsev\desktop\packman\packman game\src\object.h
+	"main.h"
+	"Entity.h"
+	"GameWindow.h"
+
+1479637706 c:\users\yani maltsev\desktop\packman\packman game\src\entity.h
+
+1479566596 source:c:\users\yani maltsev\desktop\packman\packman game\src\movingobject.cpp
+	"MovingObject.h"
+
+1479566562 c:\users\yani maltsev\desktop\packman\packman game\src\movingobject.h
+	"Object.h"
+
+1479647394 source:c:\users\yani maltsev\desktop\packman\packman game\src\packman.cpp
+	"Packman.h"
+
+1479634074 c:\users\yani maltsev\desktop\packman\packman game\src\packman.h
+	"MovingObject.h"
+
+1479649388 source:c:\users\yani maltsev\desktop\packman\packman game\src\ghost.cpp
+	"Ghost.h"
+
+1479634039 c:\users\yani maltsev\desktop\packman\packman game\src\ghost.h
+	"MovingObject.h"
+
+1479634047 c:\users\yani maltsev\desktop\packman\packman game\src\bonus.h
+	"Object.h"
+
+1479647198 source:c:\users\yani maltsev\desktop\packman\packman game\src\bonus.cpp
+	"Bonus.h"
+
+1479637674 source:c:\users\yani maltsev\desktop\packman\packman game\src\packmanui.cpp
+	"PackmanUI.h"
+
+1479637755 c:\users\yani maltsev\desktop\packman\packman game\src\packmanui.h
+	"Object.h"
+	"Packman.h"
+

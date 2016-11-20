@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Packman Game" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Packman Game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="src" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Packman Game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="src" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="src/Bonus.cpp" />
+		<Unit filename="src/Bonus.h" />
+		<Unit filename="src/Entity.h" />
+		<Unit filename="src/GameState.h" />
+		<Unit filename="src/GameStateMachine.cpp" />
+		<Unit filename="src/GameStateMachine.h" />
+		<Unit filename="src/GameWindow.cpp" />
+		<Unit filename="src/GameWindow.h" />
+		<Unit filename="src/Ghost.cpp" />
+		<Unit filename="src/Ghost.h" />
+		<Unit filename="src/MovingObject.cpp" />
+		<Unit filename="src/MovingObject.h" />
+		<Unit filename="src/Object.cpp" />
+		<Unit filename="src/Object.h" />
+		<Unit filename="src/Packman.cpp" />
+		<Unit filename="src/Packman.h" />
+		<Unit filename="src/PackmanGame.cpp" />
+		<Unit filename="src/PackmanGame.h" />
+		<Unit filename="src/PackmanUI.cpp" />
+		<Unit filename="src/PackmanUI.h" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/main.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
